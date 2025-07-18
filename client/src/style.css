@@ -1493,6 +1493,7 @@ html {
 #__next,
 #root {
   height: 100%;
+  paddig-bottom: 20vh;
 }
 
 .markdown {
