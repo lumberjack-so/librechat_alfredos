@@ -20,6 +20,18 @@
         padding: 0;
         height: 100%;
       }
+      #alfred-dock {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;  /* ensure it’s on top */
+  }
+  #alfred-dock iframe {
+    width: 600px;   /* adjust width to fit all icons */
+    height: 80px;   /* height to fit dock icons */
+    border: none;
+  }
     </style>
     <script>
       const theme = localStorage.getItem('color-theme');
